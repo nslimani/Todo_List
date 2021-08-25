@@ -1,0 +1,24 @@
+.header {
+  background-color: var(--color-purple);
+  padding: 3rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header > h1 {
+  color: var(--color-white);
+}
+
+.my {
+  font-style: italic;
+  font-family: "Dancing Script", cursive;
+  font-weight: bolder;
+}
+
+.header--dark {
+  background-color: var(--bg-light-violet);
+}
+
+.header--dark > h1 {
+  color: var(--color-light-gray);
+}

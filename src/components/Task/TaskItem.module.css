@@ -1,0 +1,31 @@
+.item {
+  background-color: var(--color-white);
+  padding: 2rem 1rem;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.check {
+  width: 20px;
+  height: 20px;
+  border-radius: 3px;
+  border: 2px solid var(--color-purple);
+}
+
+.input {
+  border: none;
+  color: inherit;
+  width: 300px;
+}
+
+.item--dark,
+.item--dark input {
+  background-color: var(--bg-black-violet);
+  color: var(--color-light-gray);
+}
+
+.item--dark > .check {
+  border: 2px solid var(--bg-light-violet);
+}
